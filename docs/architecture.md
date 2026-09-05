@@ -27,7 +27,7 @@ Design notes:
   abandoned with its reason and leaves the queue — one dead address cannot
   wedge the backlog. `emailed_at` means *provider accepted*, nothing else
   (that distinction exists because an outage once recorded people as
-  notified; see the homepage failures section).
+  notified; see the portfolio technical case).
 - **Human-in-the-loop on purpose.** Marketing email requires an explicitly
   approved template version and an agent at `approved_for_email`. The
   system makes the motion scalable; it does not remove judgment.
